@@ -1,1 +1,2 @@
-Este projeto contém somente o Front para o sistema de empréstimo de livros
+## Api disponível no azure
+https://LendingBookSystemFront.azurewebsites.net
