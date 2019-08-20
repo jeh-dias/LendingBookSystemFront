@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Empréstimo de Livro";
+}
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <div class="container">
+        <div class="py-5 text-center">
+            <h2>Empréstimo de livro</h2>
+            <p class="lead">Insira os dados abaixo</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 order-md-1">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="pessoa">Pessoa</label>
+                        <select type="text" class="form-control" id="pessoa"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 mb-3">
+                        <label for="conditions">Condições</label>
+                        <input type="textarea" class="form-control" id="conditions">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 mb-3">
+                        <label for="book">Livro</label>
+                        <select type="text" class="form-control" id="book"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="custom-control custom-radio">
+                        <label class="custom-control-label">Bloqueio</label>
+                        <input id="blocked" name="paymentMethod" type="radio" class="custom-control-input" checked>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="py-5 text-center">
+                <hr class="mb-4">
+                <h2>Lista de empréstimos de livros</h2>
+            </div>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Livro</th>
+                        <th scope="col">Pessoa</th>
+                        <th scope="col">Condições</th>
+                        <th scope="col">Bloqueio</th>
+                        <th scope="col">Data do empréstimo</th>
+                        <th scope="col">Data da devolução</th>
+                        <th scope="col">Açoes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="btn btn-success">Editar</button>
+                            <button type="button" class="btn btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
