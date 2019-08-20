@@ -1,2 +1,2 @@
 ## Api disponível no azure
-https://LendingBookSystemFront.azurewebsites.net
+https://lendingbooksystemfront.azurewebsites.net
